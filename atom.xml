@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-02-24T13:04:30.410Z</updated>
+  <updated>2016-02-24T13:18:09.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,14 +20,37 @@
     <link href="http://yoursite.com/2016/02/24/hexo%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/"/>
     <id>http://yoursite.com/2016/02/24/hexo相关问题/</id>
     <published>2016-02-24T13:02:53.000Z</published>
-    <updated>2016-02-24T13:04:30.410Z</updated>
+    <updated>2016-02-24T13:18:09.000Z</updated>
     
-    <content type="html">&lt;h3 id=&quot;“Deployer-not-found”问题&quot;&gt;&lt;a href=&quot;#“Deployer-not-found”问题&quot; class=&quot;headerlink&quot; title=&quot;“Deployer-not-found”问题&quot;&gt;&lt;/a&gt;“Deployer-not-found”问题&lt;/h3&gt;&lt;p&gt;配置好相关配置文件后，执行hexo d命令不能正常推送，命令行报错“Deployer not found”执行&lt;br&gt;&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;operator&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; hexo-deployer-git &lt;span class=&quot;comment&quot;&gt;--save&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-</content>
+    <content type="html">&lt;h3 id=&quot;“Deployer-not-found-git”问题&quot;&gt;&lt;a href=&quot;#“Deployer-not-found-git”问题&quot; class=&quot;headerlink&quot; title=&quot;“Deployer not found:git”问题&quot;&gt;&lt;/a&gt;“Deployer not found:git”问题&lt;/h3&gt;&lt;p&gt;配置好相关配置文件后，执行hexo d命令不能正常推送，命令行报错“Deployer not found:git”执行&lt;br&gt;&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;operator&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; hexo-deployer-git &lt;span class=&quot;comment&quot;&gt;--save&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;hexo常用命令&quot;&gt;&lt;a href=&quot;#hexo常用命令&quot; class=&quot;headerlink&quot; title=&quot;hexo常用命令&quot;&gt;&lt;/a&gt;hexo常用命令&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;clean&lt;/strong&gt;    &lt;em&gt;Removed generated files and cache.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;config&lt;/strong&gt;    &lt;em&gt;Get or set configurations.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;deploy&lt;/strong&gt;    &lt;em&gt;Deploy your website.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;generate&lt;/strong&gt;    &lt;em&gt;Generate static files.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;help&lt;/strong&gt;    &lt;em&gt;Gel help on a command.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;init&lt;/strong&gt;    &lt;em&gt;Create a new Hexo folder.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;list&lt;/strong&gt;    &lt;em&gt;List the information of the site&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;migrate&lt;/strong&gt;    &lt;em&gt;Migrate your site from other system to Hexo.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;new&lt;/strong&gt;    &lt;em&gt;create a new post&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;publish&lt;/strong&gt;    &lt;em&gt;Moves a draft post from &lt;/em&gt;drafts to &lt;em&gt;posts folder.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;render&lt;/strong&gt;    &lt;em&gt;Render files with renderer plugins.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;server&lt;/strong&gt;    &lt;em&gt;Start the server.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;version&lt;/strong&gt;    &lt;em&gt;Display version information.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;相关语法&quot;&gt;&lt;a href=&quot;#相关语法&quot; class=&quot;headerlink&quot; title=&quot;相关语法&quot;&gt;&lt;/a&gt;相关语法&lt;/h3&gt;&lt;figure class=&quot;highlight vala&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;preprocessor&quot;&gt;#&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;preprocessor&quot;&gt;##&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;preprocessor&quot;&gt;###&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;……&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;表示从h1~h6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;代码块语法&quot;&gt;&lt;a href=&quot;#代码块语法&quot; class=&quot;headerlink&quot; title=&quot;代码块语法&quot;&gt;&lt;/a&gt;代码块语法&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;用3个&amp;quot;`&amp;quot;开始,用3个&amp;quot;`&amp;quot;结束，里面写入相应代码即可
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h3 id=&quot;链接&quot;&gt;&lt;a href=&quot;#链接&quot; class=&quot;headerlink&quot; title=&quot;链接&quot;&gt;&lt;/a&gt;链接&lt;/h3&gt;&lt;pre&gt;
+[这是链接标题](http://www.baiud.com)
+&lt;/pre&gt;</content>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;“Deployer-not-found”问题&quot;&gt;&lt;a href=&quot;#“Deployer-not-found”问题&quot; class=&quot;headerlink&quot; title=&quot;“Deployer-not-found”问题&quot;&gt;&lt;/a&gt;“Deployer-not-found”
+      第一次使用hexo相关问题  Deployer not found:git解决方法
     
     </summary>
     

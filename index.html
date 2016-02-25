@@ -110,6 +110,86 @@
           
           
             
+              <a class="post-title-link" href="/2016/02/25/爬虫-urllib2/">
+                爬虫--urllib2
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          
+            发表于 2016-02-25
+          
+        </span>
+
+        
+          
+        
+
+        
+          
+        
+      </div>
+    </div>
+
+    
+      <div class="post-body">
+
+        
+        
+
+        
+          
+            <h3 id="知识点一-URL"><a href="#知识点一-URL" class="headerlink" title="知识点一 URL"></a>知识点一 <strong>URL</strong></h3><p>URL:<br>    统一资源定位符；有三部分组成：</p>
+<pre><code>- 协议（http、ftp）
+- 存有该资源的主机IP地址（有时包含端口号）
+- 主机资源具体地址
+</code></pre><h2 id="使用urllib2抓取下来一个网页"><a href="#使用urllib2抓取下来一个网页" class="headerlink" title="使用urllib2抓取下来一个网页"></a>使用urllib2抓取下来一个网页</h2><p>网页有用内容基本都存在HTML里面，这里我们只要抓取HTML即可：<br>代码如下：<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">import urllib2</span><br><span class="line"></span><br><span class="line">res = urllib2.<span class="function"><span class="title">urlopen</span><span class="params">(<span class="string">"http://www.qq.com"</span>)</span></span></span><br><span class="line">print res.<span class="function"><span class="title">read</span><span class="params">()</span></span></span><br></pre></td></tr></table></figure></p>
+<p>把代码保存为filename.py文件，然后运行该文件。可得到如下图：<br><img src="/articleimg/20160225/2016_01.jpg" alt="img"><br>这样就已经把百度首页的代码给抓取下来了。</p>
+
+          
+        
+      </div>
+    
+
+    
+      <div class="post-footer">
+        
+          <div class="post-tags">
+            
+              <a href="/tags/爬虫/">
+                #爬虫
+              </a>
+            
+          </div>
+        
+
+        
+
+        
+        
+          <div class="post-eof"></div>
+        
+      </div>
+    
+  </div>
+
+
+  
+    
+
+  <div class="post post-type-normal ">
+    <div class="post-header">
+
+      
+      
+        <h1 class="post-title">
+          
+          
+            
               <a class="post-title-link" href="/2016/02/24/hexo相关问题/">
                 hexo相关问题
               </a>
@@ -206,11 +286,11 @@
       <p class="site-description motion-element">这是一个犯二的，比较懒得中年。</p>
       <div class="site-state motion-element">
         <div class="site-state-item site-state-posts">
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">日志</span>
         </div>
         <div class="site-state-item site-state-tags">
-            <span class="site-state-item-count">1</span>
+            <span class="site-state-item-count">2</span>
             <span class="site-state-item-name">标签</span>
         </div>
         <div class="site-state-item site-state-pages">
